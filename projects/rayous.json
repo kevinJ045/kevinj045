@@ -1,0 +1,7 @@
+{
+  "name": "Rayous",
+  "git": "https://github.com/kevinj045/guilib",
+  "tags": ["ts", "js", "scss", "npm", "node"],
+  "description": "A mini next-like router and ui core",
+  "url": "https://www.npmjs.com/package/rayous"
+}
