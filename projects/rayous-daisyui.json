@@ -1,0 +1,7 @@
+{
+  "name": "Rayous DaisyUI",
+  "git": "https://github.com/kevinj045/rayous-daisyui",
+  "tags": ["ts", "js", "scss", "npm", "node"],
+  "description": "DaisyUI components for rayous",
+  "url": "https://www.npmjs.com/package/rayous-daisyui"
+}
