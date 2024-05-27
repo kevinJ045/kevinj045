@@ -1,0 +1,8 @@
+{
+  "name": "Rew",
+  "git": "https://github.com/kevinj045/rew",
+  "tags": ["js", "npm", "node"],
+  "description": "A simple coffeescript runtime",
+  "url": "https://kevinj045.github.io/rew-docs/",
+  "logo": "https://raw.githubusercontent.com/kevinJ045/rew-docs/main/assets/logo.png"
+}
