@@ -234,7 +234,7 @@
         "type": "Feature",
         "status": "Done",
         "difficulty": "Easy"
-      },icon
+      },
       {
         "title": "Database API",
         "subtitle": "Support for SQLite, Postgres, or other databases",
