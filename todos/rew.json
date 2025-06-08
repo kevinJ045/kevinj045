@@ -1,11 +1,17 @@
 {
   "name": "Rew Rust",
   "description": "Rewritting rew with rust",
-  "stack": ["peach Rust"],
+  "stack": ["rust"],
   "tags": ["Coffeescript", "Rust", "Runtime"],
   "github": "https://github.com/kevinj045/rew",
   "icon": "https://raw.githubusercontent.com/kevinJ045/rew-docs/main/assets/logo.png",
   "collaborators": ["kevinj045"],
+  "tools": [
+    {
+      "url": "https://docs.rs/deno_core/",
+      "name": "deno_core"
+    }
+  ],
 
 
   "categories": [
