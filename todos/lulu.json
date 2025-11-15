@@ -1,0 +1,122 @@
+{
+  "name": "Lulu",
+  "description": "Writing a simple runtime for lua",
+  "stack": ["rust", "lua"],
+  "tags": ["Lua", "Rust", "Runtime"],
+  "github": "https://github.com/kevinj045/lulu",
+  "icon": "https://raw.githubusercontent.com/kevinJ045/lulu/main/assets/logo.png",
+  "collaborators": ["kevinj045"],
+
+  "categories": [
+  {
+    "title": "Core Runtime",
+    "tasks": [
+      {
+        "title": "Basic runtime",
+        "subtitle": "Built using `mlua` crate",
+        "color": "Red",
+        "type": "Feature",
+        "status": "Done",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Basic stdlib",
+        "subtitle": "A simple stdlib to simplify lua",
+        "color": "Yellow",
+        "type": "Feature",
+        "status": "Done",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "title": "Bundler",
+    "tasks": [
+      {
+        "title": "Basic bundle",
+        "subtitle": "Basic bundling from lua to bytecode",
+        "color": "Red",
+        "type": "Feature",
+        "status": "Done",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Bundle files",
+        "subtitle": "Executable and library bundles",
+        "color": "Yellow",
+        "type": "Feature",
+        "status": "Done",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "title": "Package Manager",
+    "tasks": [
+      {
+        "title": "Core",
+        "subtitle": "Simple package management",
+        "color": "Red",
+        "type": "Feature",
+        "status": "Done",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Cache manager",
+        "subtitle": "Manage cache and build in cache",
+        "color": "Yellow",
+        "type": "Feature",
+        "status": "Done",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Platform Based Packages",
+        "subtitle": "Platform specific packager",
+        "color": "Blue",
+        "type": "Feature",
+        "status": "Nope",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "title": "Distribute",
+    "tasks": [
+      {
+        "title": "Basic distributions",
+        "subtitle": "Distributions for windows/linux/macos(probs)",
+        "color": "Red",
+        "type": "Feature",
+        "status": "Done",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Into package managers",
+        "subtitle": "Release into package managers",
+        "color": "Green",
+        "type": "Feature",
+        "status": "Nope",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "More platforms",
+        "subtitle": "Build for android and bsd",
+        "color": "Blue",
+        "type": "Feature",
+        "status": "Nope",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "WASM Build",
+        "subtitle": "Build for web",
+        "color": "Green",
+        "type": "Feature",
+        "status": "Nope",
+        "difficulty": "Easy"
+      }
+    ]
+  }
+  ]
+
+  
+}
