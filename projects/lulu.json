@@ -1,0 +1,8 @@
+{
+  "name": "Lulu",
+  "git": "https://github.com/kevinj045/lulu",
+  "tags": ["rust", "lua"],
+  "description": "A simple lua runtime and bundler",
+  "url": "https://kevinj045.github.io/lulu/",
+  "logo": "https://raw.githubusercontent.com/kevinJ045/lulu/main/assets/logo.png"
+}
