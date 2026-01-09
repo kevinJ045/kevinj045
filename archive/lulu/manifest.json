@@ -10,7 +10,10 @@
   },
   "homepage": "https://raw.githubusercontent.com/kevinJ045/lulu/main/README.md",
   "docs": {
-    "source": "https://kevinj045.github.io/lulu/",
+    "source": {
+      "type": "docsify",
+      "base_url": "https://kevinj045.github.io/lulu/"
+    },
   },
   "posts": {
     "github_api_url": "https://api.github.com/repos/kevinj045/kevinj045/lulu/posts"
