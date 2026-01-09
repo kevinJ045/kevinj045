@@ -23,14 +23,14 @@
         "title": "Basic runtime",
         "note": "Built using `mlua` crate",
         "color": "Red",
-        "item_type": "Feature",
+        "type": "Feature",
         "column": "Done"
       },
       {
         "title": "Basic stdlib",
         "note": "A simple stdlib to simplify lua",
         "color": "Yellow",
-        "item_type": "Feature",
+        "type": "Feature",
         "column": "Done"
       }
     ]
