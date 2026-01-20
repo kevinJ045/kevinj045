@@ -1,0 +1,38 @@
+{
+  "manifest": {
+    "name": "Rew",
+    "git": "https://github.com/kevinj045/rew",
+    "tags": ["rust", "coffeescript"],
+    "description": "A simple coffeescript runtime and bundler",
+    "url": "https://kevinj045.github.io/rew-docs/",
+    "logo": "https://raw.githubusercontent.com/kevinJ045/rew-docs/main/assets/logo.png",
+    "collaborators": ["kevinj045"]
+  },
+  "homepage": "https://raw.githubusercontent.com/kevinJ045/rew-docs/main/introduction.md",
+  "docs": {
+    "type": "github",
+    "api_url": "https://raw.githubusercontent.com/kevinJ045/rew-docs/main/"
+  },
+  "posts": {
+    "github_api_url": "https://api.github.com/repos/kevinj045/kevinj045/rew/posts"
+  },
+  "todos": {
+    "columns": ["To-Do", "Doing", "Done"],
+    "items": [
+      {
+        "title": "Basic runtime",
+        "note": "Built using `mlua` crate",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Done"
+      },
+      {
+        "title": "Basic stdlib",
+        "note": "A simple stdlib to simplify lua",
+        "color": "Yellow",
+        "type": "Feature",
+        "column": "Done"
+      }
+    ]
+  }
+}
