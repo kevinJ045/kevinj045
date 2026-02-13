@@ -34,5 +34,26 @@
         "column": "Done"
       }
     ]
+  },
+  "downloads": {
+    "items": [
+      {
+        "name": "Linux x86_64",
+        "platforms": ["linux", "x86_64"],
+        "url": "https://github.com/kevinJ045/lulu/releases/download/latest/lulu-linux_x86_64.tar.gz",
+        "install": "cargo install lulu"
+      },
+      {
+        "name": "Linux arm64",
+        "platforms": ["linux", "arm64"],
+        "url": "https://github.com/kevinJ045/lulu/releases/download/latest/lulu-linux_arm64.tar.gz",
+        "install": "cargo install lulu"
+      },
+      {
+        "name": "Windows Installer",
+        "platforms": ["windows", "installer"],
+        "url": "https://github.com/kevinJ045/lulu/releases/download/latest/lulu-lulu_installer.exe"
+      }
+    ]
   }
 }
