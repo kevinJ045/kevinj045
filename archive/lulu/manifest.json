@@ -8,7 +8,7 @@
     "logo": "https://raw.githubusercontent.com/kevinJ045/lulu/main/assets/logo.png",
     "collaborators": ["kevinj045"]
   },
-  "homepage": "https://raw.githubusercontent.com/kevinJ045/lulu/main/README.md",
+  "homepage": "https://raw.githubusercontent.com/kevinJ045/kevinj045/refs/heads/main/archive/lulu/README.mdx",
   "docs": {
     "type": "docsify",
     "base_url": "https://kevinj045.github.io/lulu/"
