@@ -1,29 +1,151 @@
+# Lulu
+
+A **magical Lua runtime** that bundles code, resolves dependencies, and builds final executables.
+
 ---
-title: "Building a Space Engine"
-description: "Rendering stars with procedural shaders"
-published: true
+
+## Features
+
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+  <Card>
+    <CardHeader>
+      <CardTitle>Lua Runtime</CardTitle>
+      <CardDescription>Execute Lua scripts with precision.</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <Badge variant="secondary">Runtime</Badge>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle>Code Bundler</CardTitle>
+      <CardDescription>Bundle multiple Lua files into a single `.lulib`.</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <Badge variant="secondary">Bundler</Badge>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle>Dependency Resolver</CardTitle>
+      <CardDescription>Resolve Lua module requirements automatically.</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <Badge variant="secondary">Dependencies</Badge>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle>Executable Builder</CardTitle>
+      <CardDescription>Create standalone executables from your Lua projects.</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <Badge variant="secondary">Build</Badge>
+    </CardContent>
+  </Card>
+
+</div>
+
 ---
 
-# 🚀 Building a Space Engine
+## Usage
 
-This document is written in **MDX**, not plain markdown.
+<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-<Card className="p-6 bg-zinc-900 text-white rounded-2xl">
-  <h2 className="text-xl font-bold mb-2">Engine Stats</h2>
-  <ul className="list-disc ml-6">
-    <li>Renderer: WebGL</li>
-    <li>Language: Rust + WASM</li>
-    <li>Stars: Procedural</li>
-  </ul>
-  <Button className="mt-4">Launch Engine</Button>
+<Card>
+  <CardHeader>
+    <CardTitle>Run a Single File</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <CodeBlock language="bash" content="lulu run single.lua" />
+  </CardContent>
+</Card>
+
+<Card>
+  <CardHeader>
+    <CardTitle>Run a Project</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <CodeBlock language="bash" content="lulu run main.lua" />
+  </CardContent>
+</Card>
+
+<Card>
+  <CardHeader>
+    <CardTitle>Bundle Project</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <CodeBlock language="bash" content="lulu bundle main.lua /path/to/main.lulib" />
+  </CardContent>
+</Card>
+
+<Card>
+  <CardHeader>
+    <CardTitle>Build Executable</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <CodeBlock language="bash" content="lulu build /path/to/project
+    # or
+    lulu build # means lulu build ." />
+  </CardContent>
+</Card>
+
+</div>
+
+---
+
+## Dependencies
+
+<Card>
+  <CardHeader>
+    <CardTitle>Resolve Dependencies</CardTitle>
+    <CardDescription>Fetch and cache dependencies from URLs or Git repositories.</CardDescription>
+  </CardHeader>
+  <CardContent>
+<CodeBlock language="bash" content="lulu resolve .
+lulu resolve github:user/repo" />
+  </CardContent>
+</Card>
+
+<Card>
+  <CardHeader>
+    <CardTitle>Manage Cache</CardTitle>
+    <CardContent>
+  <CodeBlock language="bash" content="# List all cached packages
+lulu cache list
+
+# Clear cache
+lulu cache clear
+
+# Remove a specific package
+lulu cache remove <package_url>" />
+    </CardContent>
+  </CardHeader>
 </Card>
 
 ---
 
-## Dynamic Components
+## TODO
 
-You can pass props:
-
-<Badge variant="outline">
-  Thing
-</Badge>
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <Badge variant="secondary" className="line-through">Runtime based on luajit</Badge>
+  <Badge variant="secondary" className="line-through">Simple APIs</Badge>
+  <Badge variant="secondary" className="line-through">Lua bytecode buffer</Badge>
+  <Badge variant="secondary" className="line-through">Module resolver from buffer</Badge>
+  <Badge variant="secondary" className="line-through">Bundler into ".lulib" or executable</Badge>
+  <Badge variant="secondary" className="line-through">Current path resolver</Badge>
+  <Badge variant="secondary" className="line-through">Downloading lulib from paths & GitHub</Badge>
+  <Badge variant="secondary" className="line-through">Building Lua projects & GitHub repos</Badge>
+  <Badge variant="secondary" className="line-through">Caches</Badge>
+  <Badge variant="secondary" className="line-through">Macros & Builtins</Badge>
+  <Badge variant="secondary" className="line-through">Export Macros</Badge>
+  <Badge variant="secondary" className="line-through">Basic Testing</Badge>
+  <Badge variant="destructive">Packager for Windows, Linux, macOS</Badge>
+  <Badge variant="destructive">Testing framework integration</Badge>
+  <Badge variant="destructive">Additional FFI features</Badge>
+  <Badge variant="destructive">LuaRocks integration</Badge>
+</div>
