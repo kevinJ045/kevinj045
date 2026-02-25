@@ -8,10 +8,10 @@
     "logo": "https://raw.githubusercontent.com/bushyice/lulu/main/assets/logo.png",
     "collaborators": ["bushyice"]
   },
-  "homepage": "https://raw.githubusercontent.com/bushyice/kevinj045/refs/heads/main/archive/lulu/README.mdx",
+  "homepage": "https://raw.githubusercontent.com/bushyice/bushyice/refs/heads/main/archive/lulu/README.mdx",
   "docs": {
     "type": "docsify",
-    "base_url": "https://kevinj045.github.io/lulu/"
+    "base_url": "https://bushyice.github.io/lulu/"
   },
   "posts": {
     "github_api_url": "https://api.github.com/repos/bushyice/bushyice/contents/archive/lulu/posts"
