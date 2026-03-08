@@ -6,7 +6,7 @@
     "description": "A simple coffeescript runtime and bundler",
     "url": "https://kevinj045.github.io/rew-docs/",
     "logo": "https://raw.githubusercontent.com/kevinJ045/rew-docs/main/assets/logo.png",
-    "splash": "https://github.com/bushyice/bushyice/blob/main/archive/rew/image.png?raw=true",
+    "splash": "https://raw.githubusercontent.com/bushyice/bushyice/refs/heads/main/archive/rew/image.png",
     "collaborators": ["kevinj045"]
   },
   "homepage": "https://raw.githubusercontent.com/kevinJ045/rew-docs/main/introduction.md",
