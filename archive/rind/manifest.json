@@ -1,0 +1,147 @@
+{
+  "manifest": {
+    "name": "rind",
+    "git": "https://github.com/bushyice/rind",
+    "tags": ["rust"],
+    "description": "An experimental linux init system with states and signals.",
+    "url": "https://bushyice.github.io/rind/",
+    "logo": "https://raw.githubusercontent.com/bushyice/bushyice/refs/heads/main/archive/rind/logo.png",
+    "splash": "https://raw.githubusercontent.com/bushyice/bushyice/refs/heads/main/archive/rind/splash.png",
+    "collaborators": ["bushyice", "codebam"]
+  },
+  "homepage": "https://raw.githubusercontent.com/bushyice/bushyice/refs/heads/main/archive/rind/README.mdx",
+  "posts": {
+    "github_api_url": "https://api.github.com/repos/bushyice/bushyice/contents/archive/rind/posts"
+  },
+  "todos": {
+    "columns": ["To-Do", "Doing", "Done"],
+    "items": [
+      {
+        "title": "Core Architecture",
+        "note": "Unit loading, store management",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Done"
+      },
+      {
+        "title": "Flow System",
+        "note": "Signal/State definitions and broadcasting",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Done"
+      },
+      {
+        "title": "Payloads",
+        "note": "Typed support for JSON, String, and Binary data",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Done"
+      },
+      {
+        "title": "Transport Protocols",
+        "note": "stdio, uds, env, args",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Done"
+      },
+      {
+        "title": "Service Management",
+        "note": "Process spawning/killing, dependency-based startup, restart policies",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Done"
+      },
+      {
+        "title": "State Branching",
+        "note": "Many state payloads at once",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Done"
+      },
+      {
+        "title": "Service Branching",
+        "note": "Service per state branching",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Done"
+      },
+      {
+        "title": "State Persistence",
+        "note": "Continuity of state across restarts",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Done"
+      },
+      {
+        "title": "Detached Transports/Subscribers",
+        "note": "Independent messaging access for external programs",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Done"
+      },
+      {
+        "title": "Daemon & CLI",
+        "note": "Listing, Enable/Disable/Start/Stop, States and Signal control (maybe with permissions)",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Doing"
+      },
+      {
+        "title": "State Transcendence",
+        "note": "Auto-activation of states based on dependencies (e.g. SwayActive on UserLoggedIn)",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Doing"
+      },
+      {
+        "title": "Outputs",
+        "note": "Signal/State output collected from services",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Doing"
+      },
+      {
+        "title": "Piping",
+        "note": "Piping outputs and payloads into other states/signals",
+        "color": "Red",
+        "type": "Feature",
+        "column": "Doing"
+      },
+      {
+        "title": "Advanced Triggering",
+        "note": "More complex state-based service triggers",
+        "color": "Red",
+        "type": "Feature",
+        "column": "To-Do"
+      },
+      {
+        "title": "Userspace Isolation",
+        "note": "Isolate units for user and system",
+        "color": "Red",
+        "type": "Feature",
+        "column": "To-Do"
+      },
+      {
+        "title": "Plugins",
+        "note": "Cycle-based internal programs with access to rind's internal state",
+        "color": "Red",
+        "type": "Feature",
+        "column": "To-Do"
+      },
+      {
+        "title": "Permissions",
+        "note": "Entity-based access control for Actions and ActionGroups",
+        "color": "Red",
+        "type": "Feature",
+        "column": "To-Do"
+      },
+      {
+        "title": "eBPF Loader",
+        "note": "Maybe? Loading eBPF at system startup",
+        "color": "Red",
+        "type": "Feature",
+        "column": "To-Do"
+      }
+    ]
+  }
+}
