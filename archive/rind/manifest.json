@@ -2,7 +2,7 @@
   "manifest": {
     "name": "rind",
     "git": "https://github.com/bushyice/rind",
-    "tags": ["rust"],
+    "tags": ["rust", "linux"],
     "description": "An experimental linux init system with states and signals.",
     "url": "https://bushyice.github.io/rind/",
     "logo": "https://raw.githubusercontent.com/bushyice/bushyice/refs/heads/main/archive/rind/logo.png",
