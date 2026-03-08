@@ -10,29 +10,10 @@
   },
   "homepage": "https://raw.githubusercontent.com/kevinJ045/rew-docs/main/introduction.md",
   "docs": {
-    "type": "github",
-    "api_url": "https://raw.githubusercontent.com/kevinJ045/rew-docs/main/"
+    "type": "website",
+    "base_url": "https://bushyice.github.io/rew-docs"
   },
   "posts": {
     "github_api_url": "https://api.github.com/repos/kevinj045/kevinj045/rew/posts"
-  },
-  "todos": {
-    "columns": ["To-Do", "Doing", "Done"],
-    "items": [
-      {
-        "title": "Basic runtime",
-        "note": "Built using `mlua` crate",
-        "color": "Red",
-        "type": "Feature",
-        "column": "Done"
-      },
-      {
-        "title": "Basic stdlib",
-        "note": "A simple stdlib to simplify lua",
-        "color": "Yellow",
-        "type": "Feature",
-        "column": "Done"
-      }
-    ]
   }
 }
