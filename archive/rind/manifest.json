@@ -143,5 +143,12 @@
         "column": "To-Do"
       }
     ]
+  },
+  "giscus": {
+    "repo": "bushyice/bushyice",
+    "repoId": "R_kgDOKluq6g",
+    "category": "General",
+    "categoryId": "DIC_kwDOKluq6s4C38PY",
+    "components": ["homepage", "docs", "post", "todo", "downloads"]
   }
 }
