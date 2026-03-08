@@ -16,5 +16,12 @@
   },
   "posts": {
     "github_api_url": "https://api.github.com/repos/kevinj045/kevinj045/rew/posts"
+  },
+  "giscus": {
+    "repo": "bushyice/rew",
+    "repoId": "R_kgDOM_vjsQ",
+    "category": "General",
+    "categoryId": "DIC_kwDOM_vjsc4CrWDR",
+    "components": ["homepage", "docs", "post", "todo", "downloads"]
   }
 }
