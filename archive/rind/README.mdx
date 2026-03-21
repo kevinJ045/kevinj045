@@ -145,7 +145,7 @@
             inkscape:export-xdpi="96"
             inkscape:export-ydpi="96"><path
               id="rect5"
-              style="fill:#215186;stroke-width:1.96171"
+              style="fill:#5e98d7;stroke-width:1.96171"
               d="m 108.10342,91.339844 h 24.35152 V 117.9508 h -24.35152 z" /><path
               id="rect12"
               style="fill:#5e98d7;fill-opacity:1;stroke-width:1.96171"
@@ -530,3 +530,127 @@
 </p>
 
 </div>
+
+
+<RindFeaturesSection features='[
+  {
+    id: "f1",
+    title: "Units: Holders",
+    description:
+      "Everything Exists here. Services, Mounts, States... All grouped under one unit namespace.",
+    color: "bg-blue",
+    cubeColor: "#7aa2f7",
+  },
+  {
+    id: "f5",
+    title: "Signals: Yeah",
+    description: "Payload holding, one-shot, events.",
+    color: "bg-[#c68e31]",
+    cubeColor: "#c68e31",
+  },
+  {
+    id: "f2",
+    title: "Services: The actors",
+    description:
+      "These are the actual blocks. They run stuff, depend on other stuff, and stack together to build the system.",
+    color: "bg-[#5e98d7]",
+    cubeColor: "#5e98d7",
+  },
+  {
+    id: "f3",
+    title: "Mounts: Probably still useless",
+    description:
+      "They just mount targets.",
+    color: "bg-peach",
+    cubeColor: "#d4976a",
+  },
+  {
+    id: "f4",
+    title: "States: The main arch",
+    description: "Dynamic unit components that can sit persistently on the machine to drive services based on payloads.",
+    color: "bg-red",
+    cubeColor: "#e06c75",
+  },
+  {
+    id: "f6",
+    title: "Branching: Multiple everything",
+    description: "One thing may not be always enough. Imagine a state with multiple payloads where each independent payload is a branch.",
+    color: "bg-yellow",
+    cubeColor: "#e5c07b",
+  },
+  {
+    id: "f7",
+    title: "Transcendance: Yeah this one&apos;s cool",
+    description: "Imagine if states could depend on states, and could branch on their parent states. Yeah that&apos;s actually it.",
+    color: "bg-sapphire",
+    cubeColor: "#6fa3d4",
+  },
+  {
+    id: "f8",
+    title: "Transport: Let them talk",
+    description: "Sometimes, you may need to listen to rind changes, sometimes you may need to talk to it back, and sometimes, you may need to talk to other services through rind.",
+    color: "bg-teal",
+    cubeColor: "#6ec8b1",
+  },
+]'>
+</RindFeaturesSection>
+
+<section id="repo" className="py-32 px-4 relative">
+  <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b" />
+  <div className="max-w-5xl mx-auto">
+    <MotionDiv
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      className="bg-base rounded-[40px] p-8 md:p-16 shadow-2xl border border-blue flex flex-col lg:flex-row gap-12 items-center relative overflow-hidden"
+    >
+      <div className="absolute top-0 right-0 w-64 h-64 bg-brand-blue/5 rounded-full -mr-32 -mt-32" />
+      <div className="flex-1 relative z-10">
+        <div className="flex items-center gap-5 mb-8">
+          <div className="p-4 bg-brand-blue/10 rounded-3xl text-brand-blue shadow-inner">
+            <Github className="w-10 h-10" />
+          </div>
+          <div>
+            <h3 className="text-3xl font-bold text-white">
+              <span>bushyice/rind</span>
+            </h3>
+            <p className="text-brand-blue font-mono font-bold">
+              <span>v0.0.0-wip</span>
+              <Badge variant='secondary' className="mx-3">On development</Badge>
+            </p>
+          </div>
+        </div>
+        <p className="text-slate-600 mb-10 text-lg leading-relaxed">
+          The codebase is pretty new and is still under development, everything is slowly falling into place, but it will take time for one man to finish. So if you're into such systems, contributions would be greatly appreciated!
+        </p>
+        <div className="flex flex-wrap gap-8 text-sm font-bold text-white">
+          <div className="flex items-center gap-3 bg-mantle px-4 py-2 rounded-xl border border-base">
+            <Star className="w-5 h-5 text-brand-yellow fill-brand-yellow" />
+            <span><QuickData url="https://api.github.com/repos/bushyice/rind" default="0" transform='(t) => t.stargazers_count' /> stars</span>
+          </div>
+          <div className="flex items-center gap-3 bg-mantle px-4 py-2 rounded-xl border border-base">
+            <GitFork className="w-5 h-5 text-brand-blue" />
+            <span><QuickData url="https://api.github.com/repos/bushyice/rind" default="0" transform='(t) => t.forks_count' /> Forks</span>
+          </div>
+          <div className="flex items-center gap-3 bg-mantle px-4 py-2 rounded-xl border border-base">
+            <Users className="w-5 h-5 text-brand-orange" />
+            <span><QuickData url="https://api.github.com/repos/bushyice/rind/contributors?per_page=1&anon=1" default="0" transform='(t) => t.length' /> Contributors</span>
+          </div>
+        </div>
+      </div>
+      <div className="w-full lg:w-72 flex flex-col gap-4 relative z-10">
+        <a href="https://github.com/bushyice/rind">
+          <button className="w-full px-8 py-5 bg-mantle text-white rounded-2xl font-bold flex items-center justify-center gap-3 transition-all shadow-xl hover:-translate-y-1">
+            <GitFork className="w-6 h-6" />
+            <span>Fork and contribute</span>
+          </button>
+        </a>
+        <a href="/archive/rind/todos">
+          <button className="w-full px-8 py-5 bg-white text-base border-2 border-mantle rounded-2xl font-bold flex items-center justify-center gap-3 transition-all hover:-translate-y-1">
+            <ExternalLink className="w-6 h-6" />
+            <span>Check to todos</span>
+          </button>
+        </a>
+      </div>
+    </MotionDiv>
+  </div>
+</section>
