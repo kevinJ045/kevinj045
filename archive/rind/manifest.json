@@ -27,21 +27,21 @@
       {
         "title": "Flow System",
         "note": "Signal/State definitions and broadcasting",
-        "color": "Red",
+        "color": "Sky",
         "type": "Feature",
         "column": "Done"
       },
       {
         "title": "Payloads",
         "note": "Typed support for JSON, String, and Binary data",
-        "color": "Red",
+        "color": "Green",
         "type": "Feature",
         "column": "Done"
       },
       {
         "title": "Transport Protocols",
         "note": "stdio, uds, env, args",
-        "color": "Red",
+        "color": "Yellow",
         "type": "Feature",
         "column": "Done"
       },
@@ -55,35 +55,35 @@
       {
         "title": "State Branching",
         "note": "Many state payloads at once",
-        "color": "Red",
+        "color": "Mauve",
         "type": "Feature",
         "column": "Done"
       },
       {
         "title": "Service Branching",
         "note": "Service per state branching",
-        "color": "Red",
+        "color": "Blue",
         "type": "Feature",
         "column": "Done"
       },
       {
         "title": "State Persistence",
         "note": "Continuity of state across restarts",
-        "color": "Red",
+        "color": "Green",
         "type": "Feature",
         "column": "Done"
       },
       {
         "title": "Detached Transports/Subscribers",
         "note": "Independent messaging access for external programs",
-        "color": "Red",
+        "color": "Yellow",
         "type": "Feature",
         "column": "Done"
       },
       {
         "title": "Daemon & CLI",
         "note": "Listing, Enable/Disable/Start/Stop, States and Signal control (maybe with permissions)",
-        "color": "Red",
+        "color": "Teal",
         "type": "Feature",
         "column": "Doing"
       },
@@ -97,42 +97,42 @@
       {
         "title": "Outputs",
         "note": "Signal/State output collected from services",
-        "color": "Red",
+        "color": "Blue",
         "type": "Feature",
         "column": "Doing"
       },
       {
         "title": "Piping",
         "note": "Piping outputs and payloads into other states/signals",
-        "color": "Red",
+        "color": "Green",
         "type": "Feature",
         "column": "Doing"
       },
       {
         "title": "Advanced Triggering",
         "note": "More complex state-based service triggers",
-        "color": "Red",
+        "color": "Blue",
         "type": "Feature",
         "column": "To-Do"
       },
       {
         "title": "Userspace Isolation",
         "note": "Isolate units for user and system",
-        "color": "Red",
+        "color": "Mauve",
         "type": "Feature",
         "column": "To-Do"
       },
       {
         "title": "Plugins",
         "note": "Cycle-based internal programs with access to rind's internal state",
-        "color": "Red",
+        "color": "Peach",
         "type": "Feature",
         "column": "To-Do"
       },
       {
         "title": "Permissions",
         "note": "Entity-based access control for Actions and ActionGroups",
-        "color": "Red",
+        "color": "Sapphire",
         "type": "Feature",
         "column": "To-Do"
       },
