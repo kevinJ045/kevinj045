@@ -15,6 +15,7 @@
   },
   "todos": {
     "columns": ["To-Do", "Doing", "Done"],
+    "style": "notes",
     "items": [
       {
         "title": "Core Architecture",
